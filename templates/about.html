@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    {% extends 'base.html' %}
+    {% block content %}
+    <br><br><br>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" style="margin: 40px;">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/media/2022-11-11 18.25.38.jpg" class="d-block w-100" alt="..." width="500px" height="300px">
+            </div>
+            <div class="carousel-item">
+                <img src="http://storage.kun.uz/source/files/static/about-1.png" class="d-block w-100" alt="..." width="500px" height="300px">
+            </div>
+            <div class="carousel-item">
+                <img src="http://storage.kun.uz/source/files/static/about-2.png" class="d-block w-100" alt="..." width="500px" height="300px">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div> 
+        <br><br><br>
+        <div class="box-1" style="margin: 40px; font-family: sans-serif;">
+            <h1>Sayt haqida</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis aspernatur dicta hic saepe accusantium nesciunt quia rem atque adipisci! Laboriosam labore quam voluptatem, qui dicta et assumenda ipsa molestiae dolorum est at tempora, quaerat voluptatum vel blanditiis inventore soluta fugit, sapiente harum consectetur dolores natus explicabo eligendi? Fugit debitis eaque tenetur fuga eius molestias ex quasi neque provident vero. Cum, minima odit, maxime vel laboriosam rerum eum tempore aut alias, ea ipsum dicta. Quaerat repellat odit, pariatur tenetur est quo. Repellendus totam quasi quod autem itaque debitis architecto soluta dicta neque, in numquam ea laudantium ratione rerum sed temporibus reprehenderit voluptate quia impedit fuga illo repudiandae a? Aliquid voluptatum iusto repudiandae earum exercitationem, est, nisi nobis labore voluptatibus tempora, nostrum ipsam reiciendis impedit necessitatibus officia magni. Porro quasi ad, iusto, aliquam in soluta laudantium nesciunt magnam perferendis maxime exercitationem quisquam vitae incidunt sed laborum aliquid doloremque! Alias nulla ullam, praesentium vel repudiandae ex quibusdam dolorem quidem, iure eligendi repellat molestias! Distinctio explicabo labore esse perspiciatis. Laboriosam ipsum, eos nostrum suscipit eligendi aspernatur corporis quos, illum, veritatis quae omnis unde ab officia at dolores velit voluptatibus blanditiis quas est deleniti repellendus asperiores consectetur. Deleniti numquam culpa voluptas quis nobis eligendi atque quo officiis consequatur. Officiis, obcaecati placeat voluptate, iste doloremque praesentium itaque ducimus unde odit vel accusantium dignissimos! Aliquid, accusamus modi repudiandae nesciunt quos incidunt facilis vitae molestias velit ut ratione nihil, vel perspiciatis nemo aliquam exercitationem, maiores minus aperiam libero voluptatem consectetur ullam. Corporis harum, exercitationem accusamus veniam dolorem quibusdam ad iure aut aliquid assumenda iusto temporibus earum hic sed laboriosam fuga est placeat unde! Harum praesentium officiis, in, qui aut et a dolorem minus quibusdam commodi impedit beatae consectetur aspernatur dolores architecto, ullam fugiat minima. Est reprehenderit molestiae earum temporibus, voluptatibus numquam consectetur architecto tempora mollitia. Accusantium, tempora omnis.</p>   
+            
+            <img src="/media/about-2.png" alt="" width="100%">
+        </div>
+        
+        <div class="foter">
+            <div class="card border-success mb-3" style="width: 100%; background-color: rgb(60, 84, 103); color: antiquewhite; margin: 40px 40px;">
+                <div class="card-header bg-transparent border-success">Header</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title">Success card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-success">Footer</div>
+              </div>
+        </div>
+
+
+    {% endblock content %}
+</body>
+</html>
