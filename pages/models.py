@@ -25,7 +25,7 @@ class Murojatlar(models.Model):
     familya = models.CharField(max_length=25)
     tel_raqam = models.PositiveIntegerField(max_length=9)
     murojatlar = models.TextField()
-    vaqt = models.DateTimeField()
+    vaqt = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.murojatlar
